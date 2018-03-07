@@ -6,7 +6,7 @@
 /*Name space*/
 .name-font{
     font-family: "Goudy Bookletter 1911";
-    font-size: 80px;
+    font-size: 100px;
 }
 .under-name-font{
     font-family: "Goudy Bookletter 1911";
@@ -20,7 +20,7 @@
 
 /*over view*/
 .overview-container{
-    /*padding-top: 100px;*/
+    padding-top: 100px;
     padding-right: 60px;
     padding-left: 60px;
     height: 500px;
