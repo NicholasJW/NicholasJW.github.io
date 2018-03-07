@@ -1,0 +1,44 @@
+/*Welcome bar*/
+.welcome-font{
+    font-family: "Allerta Stencil";
+}
+
+/*Name space*/
+.name-font{
+    font-family: "Goudy Bookletter 1911";
+    font-size: 80px;
+}
+.under-name-font{
+    font-family: "Goudy Bookletter 1911";
+    font-size: 40px;
+}
+#nameBackground{
+    padding-bottom: 120px;
+    padding-top: 120px;
+    background-color: white;
+}
+
+/*over view*/
+.overview-container{
+    /*padding-top: 100px;*/
+    padding-right: 60px;
+    padding-left: 60px;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+/*click box*/
+.click-box{
+    /*transform: rotate(90deg);*/
+    font-family: Hack;
+    font-size: 25px;
+}
+.cover-image{
+    transform: scale(0.5,0.5);
+}
+
+/*footer*/
+#footer{
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
