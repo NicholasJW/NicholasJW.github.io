@@ -1,16 +1,17 @@
 /*Welcome bar*/
-.welcome-font{
+.welcome-bar{
+    position: fixed;
+    width: 100%;
+}
+.welcome a{
     font-family: "Allerta Stencil";
+    text-decoration: none;
 }
 
 /*Name space*/
 .name-font{
     font-family: "Goudy Bookletter 1911";
     font-size: 100px;
-}
-.under-name-font{
-    font-family: "Goudy Bookletter 1911";
-    font-size: 40px;
 }
 #nameBackground{
     padding-bottom: 120px;
