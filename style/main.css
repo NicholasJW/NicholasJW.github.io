@@ -2,15 +2,38 @@
 .welcome-bar{
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 .welcome a{
-    font-family: "Allerta Stencil";
+    font-family: "Allerta Stencil", serif;
+    text-decoration: none;
+}
+
+/*Side bar*/
+#sidebar{
+    display: none;
+    top: 56px;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    font-family: "Amatic SC", serif;
+    font-weight: bold;
+    font-size: 28px;
+
+}
+#sidebar ul{
+    list-style-type: none;
+}
+/*Remove underline*/
+#sidebar ul li a{
     text-decoration: none;
 }
 
 /*Name space*/
 .name-font{
-    font-family: "Goudy Bookletter 1911";
+    font-family: "Goudy Bookletter 1911", serif;
     font-size: 100px;
 }
 #nameBackground{
@@ -22,8 +45,8 @@
 /*over view*/
 .overview-container{
     margin-bottom: 200px;
-    padding-right: 260px;
-    padding-left: 260px;
+    padding-right: 360px;
+    padding-left: 360px;
     height: 500px;
     width: 100%;
     background-color: white;
@@ -31,18 +54,22 @@
 /*click box*/
 .click-box{
     /*transform: rotate(90deg);*/
-    font-family: "Amatic SC";
+    font-family: "Amatic SC", serif;
     font-weight: bold;
     font-size: 28px;
     margin-top: 35px;
     margin-bottom: 35px;
+    color: black;
 }
 .drop-button{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: "Elsie";
+    font-family: "Elsie", serif;
     font-size: 35px;
 }
+.dropdown-button .fa-bars{
+    font-size: 30px;
+    padding-top: 1.5%;
+}
+
 .dropdown{
     position: relative;
     display: inline-block;
@@ -51,6 +78,7 @@
 .dropdown-content{
     display: none;
     position: absolute;
+    z-index: 1;
 }
 .dropdown:hover .dropdown-content{
     display: block;
